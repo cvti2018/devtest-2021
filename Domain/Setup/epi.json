@@ -1,0 +1,452 @@
+﻿[
+  {
+    "NomEpi": "Calçado tipo bota",
+    "DatInclusao": "2018-03-15T14:47:57.750",
+    "DatValidade": "08\/01\/2020",
+    "NumCa": 36025,
+    "NumProcesso": "46017008530201421",
+    "NomFabricante": "Innovare Equipamentos De Protecao Ltda",
+    "CnpjFabricante": "10421262000183"
+  },
+  {
+    "NomEpi": "Luva para procedimentos não-cirúrgicos",
+    "DatInclusao": "2018-03-15T09:06:25.807",
+    "DatValidade": "19\/05\/2021",
+    "NumCa": 38625,
+    "NumProcesso": "46017000577201617",
+    "NomFabricante": "Descarpack Descartaveis Do Brasil Ltda",
+    "CnpjFabricante": "01057428000133"
+  },
+  {
+    "NomEpi": "Respirador purificador de ar tipo peça semifacial filtrante para partículas pff2",
+    "DatInclusao": "2018-03-15T09:05:19.037",
+    "DatValidade": "30\/11\/2022",
+    "NumCa": 13211,
+    "NumProcesso": "46017002423201732",
+    "NomFabricante": "Descarpack Descartaveis Do Brasil Ltda",
+    "CnpjFabricante": "01057428000133"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos e químicos",
+    "DatInclusao": "2018-03-14T11:02:39.783",
+    "DatValidade": "20\/09\/2022",
+    "NumCa": 13301,
+    "NumProcesso": "46000005791201711",
+    "NomFabricante": "Dvs Equipamentos De Protecao Individual Ltda",
+    "CnpjFabricante": "58533209000109"
+  },
+  {
+    "NomEpi": "Capuz ou balaclava",
+    "DatInclusao": "2018-03-13T15:37:02.327",
+    "DatValidade": "14\/07\/2020",
+    "NumCa": 27656,
+    "NumProcesso": "46017004222201516",
+    "NomFabricante": "Pamcold Do Brasil Ltda",
+    "CnpjFabricante": "11128320000148"
+  },
+  {
+    "NomEpi": "Meia",
+    "DatInclusao": "2018-03-13T14:57:07.607",
+    "DatValidade": "09\/12\/2020",
+    "NumCa": 13663,
+    "NumProcesso": "46000008456201511",
+    "NomFabricante": "Malharia Napoli Ltda - Epp",
+    "CnpjFabricante": "63095525000178"
+  },
+  {
+    "NomEpi": "Luva para procedimentos não-cirúrgicos",
+    "DatInclusao": "2018-03-09T15:21:49.643",
+    "DatValidade": "Aguardando Certificado",
+    "NumCa": 31656,
+    "NumProcesso": "46000000353201767",
+    "NomFabricante": "Unigloves Brasil Importadora Ltda",
+    "CnpjFabricante": "12283775000109"
+  },
+  {
+    "NomEpi": "Calçado",
+    "DatInclusao": "2018-03-05T15:56:51.780",
+    "DatValidade": "10\/05\/2012",
+    "NumCa": 18043,
+    "NumProcesso": "46016000133200792",
+    "NomFabricante": "Industria E Comercio De Artefatos De Borracha Uberaba - Eireli - Epp",
+    "CnpjFabricante": "17248576000175"
+  },
+  {
+    "NomEpi": "Vestimenta tipo avental",
+    "DatInclusao": "2018-03-05T08:38:23.307",
+    "DatValidade": "26\/03\/2015",
+    "NumCa": 27165,
+    "NumProcesso": "46017006288201028",
+    "NomFabricante": "Danelon Industria E Comercio De Epi's Ltda - Me",
+    "CnpjFabricante": "07236637000120"
+  },
+  {
+    "NomEpi": "Calçado tipo botina",
+    "DatInclusao": "2018-03-01T10:48:26.357",
+    "DatValidade": "05\/07\/2018",
+    "NumCa": 13203,
+    "NumProcesso": "46000003325201378",
+    "NomFabricante": "Recamonde Artefatos De Couro Ltda",
+    "CnpjFabricante": "07951171000145"
+  },
+  {
+    "NomEpi": "Capuz ou balaclava",
+    "DatInclusao": "2018-03-01T10:47:53.083",
+    "DatValidade": "06\/02\/2022",
+    "NumCa": 13023,
+    "NumProcesso": "46000009284201676",
+    "NomFabricante": "Bds Confeccoes Ltda",
+    "CnpjFabricante": "84512037000199"
+  },
+  {
+    "NomEpi": "Manga",
+    "DatInclusao": "2018-02-28T08:27:44.477",
+    "DatValidade": "29\/10\/2017",
+    "NumCa": 31474,
+    "NumProcesso": "46000003936201235",
+    "NomFabricante": "Duraveis Equipamentos De Seguranca Ltda",
+    "CnpjFabricante": "61159844000174"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos",
+    "DatInclusao": "2018-02-27T15:04:36.180",
+    "DatValidade": "10\/01\/2019",
+    "NumCa": 34174,
+    "NumProcesso": "46000009546201350",
+    "NomFabricante": "Gamiluva Comércio Importação e Exportação Ltda",
+    "CnpjFabricante": "00852175000127"
+  },
+  {
+    "NomEpi": "Respirador purificador de ar tipo peça semifacial filtrante para partículas PFF2",
+    "DatInclusao": "2018-02-27T15:03:56.047",
+    "DatValidade": "22\/12\/2018",
+    "NumCa": 38336,
+    "NumProcesso": "46017000294201667",
+    "NomFabricante": "G V S do Brasil Ltda",
+    "CnpjFabricante": "02527107000118"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes térmicos",
+    "DatInclusao": "2018-02-27T13:39:57.120",
+    "DatValidade": "26\/09\/2021",
+    "NumCa": 39143,
+    "NumProcesso": "46017004201201673",
+    "NomFabricante": "Leilane Aguiar De Lima Almeida - Me",
+    "CnpjFabricante": "11778394000120"
+  },
+  {
+    "NomEpi": "Luva para procedimentos não-cirúrgicos",
+    "DatInclusao": "2018-02-27T10:24:12.857",
+    "DatValidade": "10\/02\/2020",
+    "NumCa": 37182,
+    "NumProcesso": "46000008940201613",
+    "NomFabricante": "Medix Brasil Produtos Hospitalares E Odontologicos Ltda - Me",
+    "CnpjFabricante": "10268780000109"
+  },
+  {
+    "NomEpi": "Luva cirúrgica",
+    "DatInclusao": "2018-02-23T13:20:47.127",
+    "DatValidade": "24\/05\/2021",
+    "NumCa": 4343,
+    "NumProcesso": "46000004647201768",
+    "NomFabricante": "Fabrica De Artefatos De Latex Sao Roque Ltda",
+    "CnpjFabricante": "70939574000105"
+  },
+  {
+    "NomEpi": "Máscara de solda tipo escurecimento automático",
+    "DatInclusao": "2018-02-23T08:05:59.813",
+    "DatValidade": "21\/08\/2018",
+    "NumCa": 38202,
+    "NumProcesso": "46017000574201675",
+    "NomFabricante": "Fenior Comercial E Distribuidora De Ferragens Eireli",
+    "CnpjFabricante": "60510393000105"
+  },
+  {
+    "NomEpi": "Vestimenta tipo avental",
+    "DatInclusao": "2018-02-22T14:02:45.297",
+    "DatValidade": "29\/01\/2004",
+    "NumCa": 9727,
+    "NumProcesso": "460000080669807",
+    "NomFabricante": "Soldaco Comercio E Importacao De Solda Ltda - Me",
+    "CnpjFabricante": "93801686000109"
+  },
+  {
+    "NomEpi": "Calçado tipo bota",
+    "DatInclusao": "2018-02-22T07:38:41.420",
+    "DatValidade": "12\/08\/2019",
+    "NumCa": 37455,
+    "NumProcesso": "46000004293201590",
+    "NomFabricante": "Bsb Produtora De Equipamentos De Protecao Individual S.A.",
+    "CnpjFabricante": "10472968000506"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos, químicos e térmicos",
+    "DatInclusao": "2018-02-22T07:27:50.753",
+    "DatValidade": "28\/07\/2021",
+    "NumCa": 15100,
+    "NumProcesso": "46000003757201621",
+    "NomFabricante": "Volk Do Brasil Ltda",
+    "CnpjFabricante": "02683865000125"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes térmicos e mecânicos",
+    "DatInclusao": "2018-02-20T06:52:59.320",
+    "DatValidade": "02\/08\/2021",
+    "NumCa": 38845,
+    "NumProcesso": "46017003281201640",
+    "NomFabricante": "Ville Equipamentos Ltda - Epp",
+    "CnpjFabricante": "22226249000152"
+  },
+  {
+    "NomEpi": "Vestimenta tipo avental",
+    "DatInclusao": "2018-02-19T14:37:43.403",
+    "DatValidade": "05\/06\/2022",
+    "NumCa": 30555,
+    "NumProcesso": "46017002396201706",
+    "NomFabricante": "Winner Industria De Descartaveis Ltda",
+    "CnpjFabricante": "05421585000137"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos",
+    "DatInclusao": "2018-02-19T14:37:15.037",
+    "DatValidade": "03\/04\/2022",
+    "NumCa": 30550,
+    "NumProcesso": "46017001003201739",
+    "NomFabricante": "Pan Distribuidora Ltda",
+    "CnpjFabricante": "01953530000117"
+  },
+  {
+    "NomEpi": "Meia",
+    "DatInclusao": "2018-02-16T09:24:07.623",
+    "DatValidade": "08\/12\/2008",
+    "NumCa": 12357,
+    "NumProcesso": "46000020473200628",
+    "NomFabricante": "Best Produtos Ltda - Me",
+    "CnpjFabricante": "67583492000166"
+  },
+  {
+    "NomEpi": "Perneira",
+    "DatInclusao": "2018-02-16T09:23:45.727",
+    "DatValidade": "16\/01\/2023",
+    "NumCa": 12257,
+    "NumProcesso": "46017006744201714",
+    "NomFabricante": "C P Milani Votuporanga",
+    "CnpjFabricante": "00444637000177"
+  },
+  {
+    "NomEpi": "Calçado tipo botina",
+    "DatInclusao": "2018-02-15T16:36:53.257",
+    "DatValidade": "01\/08\/2021",
+    "NumCa": 18056,
+    "NumProcesso": "46017003115201643",
+    "NomFabricante": "Marluvas Calcados De Seguranca Ltda",
+    "CnpjFabricante": "19653054000184"
+  },
+  {
+    "NomEpi": "Calçado tipo bota",
+    "DatInclusao": "2018-02-15T09:55:43.507",
+    "DatValidade": "03\/01\/2010",
+    "NumCa": 15026,
+    "NumProcesso": "46000021141200407",
+    "NomFabricante": "Vulcabras Azaleia - Ce, Calcados E Artigos Esportivos S\/A",
+    "CnpjFabricante": "00954394000117"
+  },
+  {
+    "NomEpi": "Luva para procedimentos não-cirúrgicos",
+    "DatInclusao": "2018-02-15T09:06:43.677",
+    "DatValidade": "08\/03\/2022",
+    "NumCa": 31258,
+    "NumProcesso": "46000001871201706",
+    "NomFabricante": "Cremer S.A.",
+    "CnpjFabricante": "82641325000118"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos, químicos e térmicos",
+    "DatInclusao": "2018-02-14T14:36:54.390",
+    "DatValidade": "11\/11\/2020",
+    "NumCa": 16311,
+    "NumProcesso": "46000007743201504",
+    "NomFabricante": "Volk Do Brasil Ltda",
+    "CnpjFabricante": "02683865000125"
+  },
+  {
+    "NomEpi": "Respirador purificador de ar tipo peça um quarto facial",
+    "DatInclusao": "2018-02-08T09:10:20.760",
+    "DatValidade": "12\/05\/2022",
+    "NumCa": 14781,
+    "NumProcesso": "46000002415201775",
+    "NomFabricante": "Alltec Do Brasil Ltda.",
+    "CnpjFabricante": "03156201000170"
+  },
+  {
+    "NomEpi": "Cinturão tipo pára-quedista e talabarte",
+    "DatInclusao": "2018-02-07T09:51:54.460",
+    "DatValidade": "24\/07\/2015",
+    "NumCa": 27447,
+    "NumProcesso": "46000001412201391",
+    "NomFabricante": "Mult Industria De Materiais De Seguranca Ltda",
+    "CnpjFabricante": "71045892000195"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos e químicos",
+    "DatInclusao": "2018-02-06T08:38:08.353",
+    "DatValidade": "16\/11\/2020",
+    "NumCa": 3890,
+    "NumProcesso": "46000007354201571",
+    "NomFabricante": "Mucambo S\/A",
+    "CnpjFabricante": "15107246000134"
+  },
+  {
+    "NomEpi": "Cinturão de Segurança com Talabarte e Trava-Queda",
+    "DatInclusao": "2018-02-05T14:27:04.480",
+    "DatValidade": "23\/07\/2019",
+    "NumCa": 36649,
+    "NumProcesso": "46000005807201796",
+    "NomFabricante": "Hércules Equipamentos de Proteção Ltda.",
+    "CnpjFabricante": "60042686000105"
+  },
+  {
+    "NomEpi": "Capacete classe a",
+    "DatInclusao": "2018-02-05T14:22:52.557",
+    "DatValidade": "23\/07\/2018",
+    "NumCa": 15936,
+    "NumProcesso": "46000004588201132",
+    "NomFabricante": "Kcc Industria E Comercio Ltda.",
+    "CnpjFabricante": "03972862000174"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes químicos",
+    "DatInclusao": "2018-02-05T14:22:03.967",
+    "DatValidade": "17\/02\/2019",
+    "NumCa": 34345,
+    "NumProcesso": "46000009569201364",
+    "NomFabricante": "Florence Industrial E Comercial Ltda",
+    "CnpjFabricante": "54470430000104"
+  },
+  {
+    "NomEpi": "Vestimenta tipo avental",
+    "DatInclusao": "2018-02-05T14:22:03.200",
+    "DatValidade": "26\/10\/2017",
+    "NumCa": 31465,
+    "NumProcesso": "46017012153201263",
+    "NomFabricante": "Alexandre Artier - Me",
+    "CnpjFabricante": "15619213000173"
+  },
+  {
+    "NomEpi": "Vestimenta de Segurança tipo Perneira",
+    "DatInclusao": "2018-02-05T14:18:04.700",
+    "DatValidade": "03\/05\/2022",
+    "NumCa": 18849,
+    "NumProcesso": "46017002000201712",
+    "NomFabricante": "MHX Suprimentos Industriais Eireli - EPP",
+    "CnpjFabricante": "05824514000185"
+  },
+  {
+    "NomEpi": "Vestimenta tipo avental",
+    "DatInclusao": "2018-02-05T14:13:43.613",
+    "DatValidade": "22\/08\/2022",
+    "NumCa": 30465,
+    "NumProcesso": "46017003916201790",
+    "NomFabricante": "Ziegler Do Brasil Produtos De Seguranca Ltda",
+    "CnpjFabricante": "08088173000115"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos",
+    "DatInclusao": "2018-02-05T10:35:06",
+    "DatValidade": "12\/12\/2021",
+    "NumCa": 6725,
+    "NumProcesso": "46017006528201680",
+    "NomFabricante": "Marfe-Luvas Ltda - Epp",
+    "CnpjFabricante": "25194788000145"
+  },
+  {
+    "NomEpi": "Calçado tipo bota",
+    "DatInclusao": "2018-02-02T15:29:19",
+    "DatValidade": "06\/03\/2017",
+    "NumCa": 30019,
+    "NumProcesso": "46017011922201125",
+    "NomFabricante": "Industria De Calcados Rca Ltda.",
+    "CnpjFabricante": "21676309000176"
+  },
+  {
+    "NomEpi": "Capuz ou balaclava",
+    "DatInclusao": "2018-02-02T14:17:07",
+    "DatValidade": "31\/05\/2006",
+    "NumCa": 14588,
+    "NumProcesso": "46000007136200483",
+    "NomFabricante": "Du Pont Do Brasil S A",
+    "CnpjFabricante": "61064929000179"
+  },
+  {
+    "NomEpi": "Calçado de Segurança tipo Botina",
+    "DatInclusao": "2018-02-02T14:15:33",
+    "DatValidade": "03\/11\/2020",
+    "NumCa": 28232,
+    "NumProcesso": "46000007173201544",
+    "NomFabricante": "Diviseg Indústria de Equipamentos de Segurança Ltda - EPP",
+    "CnpjFabricante": "01820068000180"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos e químicos",
+    "DatInclusao": "2018-01-31T15:47:59",
+    "DatValidade": "08\/01\/2019",
+    "NumCa": 34142,
+    "NumProcesso": "46000009104201311",
+    "NomFabricante": "Plastcor do Brasil Ltda",
+    "CnpjFabricante": "04704457000138"
+  },
+  {
+    "NomEpi": "Capacete classe b",
+    "DatInclusao": "2018-01-31T15:44:18",
+    "DatValidade": "01\/08\/2014",
+    "NumCa": 17524,
+    "NumProcesso": "46000001138201198",
+    "NomFabricante": "Bocoan - Industria E Comercio De Equipamentos Para Seguranca Ltda - Epp",
+    "CnpjFabricante": "67844381000166"
+  },
+  {
+    "NomEpi": "Botina - tipo b",
+    "DatInclusao": "2018-01-29T17:05:55",
+    "DatValidade": "21\/03\/2022",
+    "NumCa": 17005,
+    "NumProcesso": "46017000640201798",
+    "NomFabricante": "Industria E Com De Couros E Calcados Primavera Ltda",
+    "CnpjFabricante": "67417378000166"
+  },
+  {
+    "NomEpi": "Capacete classe b",
+    "DatInclusao": "2018-01-29T15:10:41",
+    "DatValidade": "20\/05\/2010",
+    "NumCa": 21608,
+    "NumProcesso": "46016006583200870",
+    "NomFabricante": "Ultra Master Plug Comercio E Industria De Equipamentos De Protecao Individual Ltda",
+    "CnpjFabricante": "02987129000160"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos e químicos",
+    "DatInclusao": "2018-01-29T15:09:59",
+    "DatValidade": "22\/06\/2020",
+    "NumCa": 37127,
+    "NumProcesso": "46000002762201617",
+    "NomFabricante": "Volk Do Brasil Ltda",
+    "CnpjFabricante": "02683865000125"
+  },
+  {
+    "NomEpi": "Luva para proteção contra agentes mecânicos",
+    "DatInclusao": "2018-01-29T15:06:33",
+    "DatValidade": "28\/03\/2021",
+    "NumCa": 29014,
+    "NumProcesso": "46017000753201611",
+    "NomFabricante": "Dvs Equipamentos De Protecao Individual Ltda",
+    "CnpjFabricante": "58533209000109"
+  },
+  {
+    "NomEpi": "Calçado tipo botina",
+    "DatInclusao": "2018-01-25T17:37:06",
+    "DatValidade": "20\/04\/2015",
+    "NumCa": 27225,
+    "NumProcesso": "46017006677201053",
+    "NomFabricante": "Montreal Comercio De Generos Alimenticios Ltda",
+    "CnpjFabricante": "00796352000103"
+  }
+]
