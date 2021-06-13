@@ -2,7 +2,7 @@
 
 # DevTest - Cadastro de EPI
 
-Escolha um dos projetos de frontend de acordo com a sua familiariedade. As opções são:
+Escolha um dos projetos de frontend de acordo com a sua preferência. As opções são:
 - AspNetCoreBlazor - [Usando Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
 - AspNetCoreMVC - [Usando MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0)
 - AspNetCorePages - [Usando Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio)
