@@ -1,3 +1,5 @@
+[![.NET](https://github.com/cvti2018/devtest-2021/actions/workflows/dotnet.yml/badge.svg)](https://github.com/cvti2018/devtest-2021/actions/workflows/dotnet.yml)
+
 # DevTest - Cadastro de EPI
 
 Escolha um dos projetos de frontend de acordo com a sua familiariedade. As opções são:
