@@ -23,6 +23,7 @@ namespace AspNetCoreReact
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<EpiContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddControllersWithViews();
 
