@@ -12,7 +12,8 @@ No cadastro de funcionários mostrar os EPIs associados a esse funcionário.
 Desejável para o desenvolvimento:
 - Injeção de dependência
 - TDD
-- Persistência dos dados e regras de negócio devem ser feitas no projeto CadastroEpi.Domain
+- Persistência dos dados e regras de negócio devem ser feitas no projeto Domain
+- Use os templates do Visual Studio para gerar as tela de CRUD de forma mais rápida
 
 ---
 ## Informações gerais
@@ -26,3 +27,5 @@ Desejável para o desenvolvimento:
 - [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 - Injeção de dependência
     - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0
+- [EF Core with MVC](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-5.0)
+- [	EF Core with Razor Pages ](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio)
