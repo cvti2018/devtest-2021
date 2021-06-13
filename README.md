@@ -25,6 +25,4 @@ Desejável para o desenvolvimento:
 ## Referências
 - [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 - Injeção de dependência
-    - https://autofac.org/
-    - https://simpleinjector.org
-    - http://www.ninject.org/
+    - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0
