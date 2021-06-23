@@ -8,11 +8,8 @@ Escolha um dos projetos de frontend de acordo com a sua preferência. As opçõe
 - AspNetCorePages - [Usando Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio)
 - AspNetCoreReact - [Usando React](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-5.0&tabs=visual-studio)
 
-Implemente os seguintes cadastros:
+Implemente o seguinte cadastro:
 
-- Cadastro de empresa
-- Cadastro de Função
-- Cadastro de Funcionário
 - Associar um ou vários EPIs a um funcionário
 
 No cadastro de funcionários mostrar os EPIs associados a esse funcionário.
