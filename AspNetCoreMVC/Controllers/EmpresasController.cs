@@ -35,6 +35,9 @@ namespace AspNetCoreMVC.Controllers
 
             var empresa = await _context.Empresas
                 .FirstOrDefaultAsync(m => m.ID == id);
+
+            ViewBag.TipoIdentificadorOptions = ListaIdentificadores();
+
             if (empresa == null)
             {
                 return NotFound();
@@ -43,9 +46,16 @@ namespace AspNetCoreMVC.Controllers
             return View(empresa);
         }
 
+        private static List<SelectListItem> ListaIdentificadores()
+        {
+            return new List<SelectListItem> { new SelectListItem { Value = "1", Text = "CNPJ" }, new SelectListItem { Value = "2", Text = "CPF" } };
+        }
+
         // GET: Empresas/Create
         public IActionResult Create()
         {
+            ViewBag.TipoIdentificadorOptions = ListaIdentificadores();
+
             return View();
         }
 
@@ -72,7 +82,7 @@ namespace AspNetCoreMVC.Controllers
             {
                 return NotFound();
             }
-
+            ViewBag.TipoIdentificadorOptions = ListaIdentificadores();
             var empresa = await _context.Empresas.FindAsync(id);
             if (empresa == null)
             {
@@ -113,6 +123,7 @@ namespace AspNetCoreMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewBag.TipoIdentificadorOptions = ListaIdentificadores();
             return View(empresa);
         }
 

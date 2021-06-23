@@ -10,23 +10,22 @@ using Domain.Model;
 
 namespace AspNetCoreMVC.Controllers
 {
-    public class FuncionariosController : Controller
+    public class EpisController : Controller
     {
         private readonly EpiContext _context;
 
-        public FuncionariosController(EpiContext context)
+        public EpisController(EpiContext context)
         {
             _context = context;
         }
 
-        // GET: Funcionarios
+        // GET: Epis
         public async Task<IActionResult> Index()
         {
-            var epiContext = _context.Funcionarios.Include(f => f.Funcao);
-            return View(await epiContext.ToListAsync());
+            return View(await _context.Epis.ToListAsync());
         }
 
-        // GET: Funcionarios/Details/5
+        // GET: Epis/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -34,42 +33,39 @@ namespace AspNetCoreMVC.Controllers
                 return NotFound();
             }
 
-            var funcionario = await _context.Funcionarios
-                .Include(f => f.Funcao)
+            var epi = await _context.Epis
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (funcionario == null)
+            if (epi == null)
             {
                 return NotFound();
             }
 
-            return View(funcionario);
+            return View(epi);
         }
 
-        // GET: Funcionarios/Create
+        // GET: Epis/Create
         public IActionResult Create()
         {
-            ViewData["FuncaoID"] = new SelectList(_context.Funcaos, "ID", nameof(Funcao.NomeFuncao));
             return View();
         }
 
-        // POST: Funcionarios/Create
+        // POST: Epis/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,NomeFuncionario,Cpf,FuncaoID")] Funcionario funcionario)
+        public async Task<IActionResult> Create([Bind("ID,NomEpi,DatInclusao,DatValidade,NumCa,NumProcesso,NomFabricante,CnpjFabricante")] Epi epi)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(funcionario);
+                _context.Add(epi);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["FuncaoID"] = new SelectList(_context.Funcaos, "ID", nameof(Funcao.NomeFuncao), funcionario.FuncaoID);
-            return View(funcionario);
+            return View(epi);
         }
 
-        // GET: Funcionarios/Edit/5
+        // GET: Epis/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -77,23 +73,22 @@ namespace AspNetCoreMVC.Controllers
                 return NotFound();
             }
 
-            var funcionario = await _context.Funcionarios.FindAsync(id);
-            if (funcionario == null)
+            var epi = await _context.Epis.FindAsync(id);
+            if (epi == null)
             {
                 return NotFound();
             }
-            ViewData["FuncaoID"] = new SelectList(_context.Funcaos, "ID", "ID", funcionario.FuncaoID);
-            return View(funcionario);
+            return View(epi);
         }
 
-        // POST: Funcionarios/Edit/5
+        // POST: Epis/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,NomeFuncionario,Cpf,FuncaoID")] Funcionario funcionario)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,NomEpi,DatInclusao,DatValidade,NumCa,NumProcesso,NomFabricante,CnpjFabricante")] Epi epi)
         {
-            if (id != funcionario.ID)
+            if (id != epi.ID)
             {
                 return NotFound();
             }
@@ -102,12 +97,12 @@ namespace AspNetCoreMVC.Controllers
             {
                 try
                 {
-                    _context.Update(funcionario);
+                    _context.Update(epi);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!FuncionarioExists(funcionario.ID))
+                    if (!EpiExists(epi.ID))
                     {
                         return NotFound();
                     }
@@ -118,11 +113,10 @@ namespace AspNetCoreMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["FuncaoID"] = new SelectList(_context.Funcaos, "ID", "ID", funcionario.FuncaoID);
-            return View(funcionario);
+            return View(epi);
         }
 
-        // GET: Funcionarios/Delete/5
+        // GET: Epis/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -130,31 +124,30 @@ namespace AspNetCoreMVC.Controllers
                 return NotFound();
             }
 
-            var funcionario = await _context.Funcionarios
-                .Include(f => f.Funcao)
+            var epi = await _context.Epis
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (funcionario == null)
+            if (epi == null)
             {
                 return NotFound();
             }
 
-            return View(funcionario);
+            return View(epi);
         }
 
-        // POST: Funcionarios/Delete/5
+        // POST: Epis/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var funcionario = await _context.Funcionarios.FindAsync(id);
-            _context.Funcionarios.Remove(funcionario);
+            var epi = await _context.Epis.FindAsync(id);
+            _context.Epis.Remove(epi);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool FuncionarioExists(int id)
+        private bool EpiExists(int id)
         {
-            return _context.Funcionarios.Any(e => e.ID == id);
+            return _context.Epis.Any(e => e.ID == id);
         }
     }
 }
