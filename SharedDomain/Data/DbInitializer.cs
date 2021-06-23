@@ -16,7 +16,10 @@ namespace Domain.Data
             if (!ctx.Epis.Any())
             {
                 var assembly = typeof(Domain.Data.DbInitializer).GetTypeInfo().Assembly;
-                using var stream = assembly.GetManifestResourceStream("Domain.Setup.epi.json");
+                string[] names = assembly.GetManifestResourceNames();
+                string resource = names.FirstOrDefault(x => x.Contains("epi.json"));
+
+                using var stream = assembly.GetManifestResourceStream(resource);
                 using var streamReader = new StreamReader(stream);
 
                 var lstEpi = JsonSerializer.Deserialize<List<Epi>>((streamReader.ReadToEnd()));

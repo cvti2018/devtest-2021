@@ -1,0 +1,65 @@
+﻿@page
+@model AspNetCorePages.Pages.Epis.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Epi</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Epi.ID" />
+            <div class="form-group">
+                <label asp-for="Epi.NomEpi" class="control-label"></label>
+                <input asp-for="Epi.NomEpi" class="form-control" />
+                <span asp-validation-for="Epi.NomEpi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Epi.DatInclusao" class="control-label"></label>
+                <input asp-for="Epi.DatInclusao" class="form-control" />
+                <span asp-validation-for="Epi.DatInclusao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Epi.DatValidade" class="control-label"></label>
+                <input asp-for="Epi.DatValidade" class="form-control" />
+                <span asp-validation-for="Epi.DatValidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Epi.NumCa" class="control-label"></label>
+                <input asp-for="Epi.NumCa" class="form-control" />
+                <span asp-validation-for="Epi.NumCa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Epi.NumProcesso" class="control-label"></label>
+                <input asp-for="Epi.NumProcesso" class="form-control" />
+                <span asp-validation-for="Epi.NumProcesso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Epi.NomFabricante" class="control-label"></label>
+                <input asp-for="Epi.NomFabricante" class="form-control" />
+                <span asp-validation-for="Epi.NomFabricante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Epi.CnpjFabricante" class="control-label"></label>
+                <input asp-for="Epi.CnpjFabricante" class="form-control" />
+                <span asp-validation-for="Epi.CnpjFabricante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

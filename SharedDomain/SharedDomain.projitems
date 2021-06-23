@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>81c15f13-f934-4ba0-8942-cd1d8605f04c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedDomain</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DbInitializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\EpiContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Empresa.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Epi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Funcao.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Funcionario.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\FuncionarioEpi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TipoIdentificador.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Setup\CreateAndSetupDb.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Setup\epi.json" />
+  </ItemGroup>
+</Project>
