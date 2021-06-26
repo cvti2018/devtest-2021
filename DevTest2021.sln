@@ -5,20 +5,14 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMVC", "AspNetCoreMVC\AspNetCoreMVC.csproj", "{FB2584D4-1D7C-4585-8836-A9ED6DFC66AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreReact", "AspNetCoreReact\AspNetCoreReact.csproj", "{DEC436FE-64DA-430E-81D7-E1FF3087E6B8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCorePages", "AspNetCorePages\AspNetCorePages.csproj", "{DD26B66A-BC1E-43D9-B26E-974091B4847E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreBlazor", "AspNetCoreBlazor\AspNetCoreBlazor.csproj", "{D4455DBD-3CCF-4DFD-8446-213A2EACC3DB}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedDomain", "SharedDomain\SharedDomain.shproj", "{81C15F13-F934-4BA0-8942-CD1D8605F04C}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SharedDomain\SharedDomain.projitems*{81c15f13-f934-4ba0-8942-cd1d8605f04c}*SharedItemsImports = 13
-		SharedDomain\SharedDomain.projitems*{d4455dbd-3ccf-4dfd-8446-213a2eacc3db}*SharedItemsImports = 5
 		SharedDomain\SharedDomain.projitems*{dd26b66a-bc1e-43d9-b26e-974091b4847e}*SharedItemsImports = 5
-		SharedDomain\SharedDomain.projitems*{dec436fe-64da-430e-81d7-e1ff3087e6b8}*SharedItemsImports = 5
 		SharedDomain\SharedDomain.projitems*{fb2584d4-1d7c-4585-8836-a9ed6dfc66af}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,18 +24,10 @@ Global
 		{FB2584D4-1D7C-4585-8836-A9ED6DFC66AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB2584D4-1D7C-4585-8836-A9ED6DFC66AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB2584D4-1D7C-4585-8836-A9ED6DFC66AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEC436FE-64DA-430E-81D7-E1FF3087E6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEC436FE-64DA-430E-81D7-E1FF3087E6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEC436FE-64DA-430E-81D7-E1FF3087E6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEC436FE-64DA-430E-81D7-E1FF3087E6B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD26B66A-BC1E-43D9-B26E-974091B4847E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD26B66A-BC1E-43D9-B26E-974091B4847E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD26B66A-BC1E-43D9-B26E-974091B4847E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD26B66A-BC1E-43D9-B26E-974091B4847E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4455DBD-3CCF-4DFD-8446-213A2EACC3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4455DBD-3CCF-4DFD-8446-213A2EACC3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4455DBD-3CCF-4DFD-8446-213A2EACC3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4455DBD-3CCF-4DFD-8446-213A2EACC3DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
