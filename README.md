@@ -17,7 +17,6 @@ No cadastro de funcionários mostrar os EPIs associados a esse funcionário.
 Desejável para o desenvolvimento:
 - Injeção de dependência
 - TDD
-- Persistência dos dados e regras de negócio devem ser feitas no projeto Domain
 
 ## Dicas
 - Use os templates do Visual Studio para gerar as tela de CRUD de forma mais rápida
